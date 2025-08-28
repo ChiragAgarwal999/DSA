@@ -18,6 +18,9 @@ public class MaxSubArrKedans{
     }
     public static void main(String args[]){
         int arr[] = {2,-10,3,4,-2};
+        // logic
+            // curr={2,0,3,7,5}
+            // max={2,2,3,7,7}
         System.out.println(kedansAlgo(arr));
     }
 }
